@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343901654995",
+    "project_id": "midterm-kc",
+    "storage_bucket": "midterm-kc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343901654995:android:567ce68ce276ccf8b5e926",
+        "android_client_info": {
+          "package_name": "com.example.letstalkmoney_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343901654995-avljvjagtlktbqdu8fuk11cja4efadtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOELBOpMjoMUUG_BKJSiNmJV8olgvKxu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343901654995-avljvjagtlktbqdu8fuk11cja4efadtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
