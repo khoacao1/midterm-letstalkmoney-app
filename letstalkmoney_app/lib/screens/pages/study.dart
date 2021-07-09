@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:letstalkmoney_app/ad_helper.dart';
 import 'package:letstalkmoney_app/screens/pages/chats/studychat.dart';
 import 'package:letstalkmoney_app/services/auth.dart';
 import 'package:letstalkmoney_app/shared/appbar.dart';
@@ -90,6 +92,7 @@ class _StudyChatPageState extends State<StudyChatPage> {
             child: Stack(
               children: <Widget>[
                 // getUserName(user.uid),
+
                 StudyList(),
                 Container(
                   alignment: Alignment.bottomCenter,
