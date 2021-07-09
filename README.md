@@ -1,16 +1,15 @@
 # letstalkmoney_app
 
-A new Flutter project.
+Midterm project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This  project show help to understand and know how to use integration test to test UI and performance of the app.
+It also help to implement the Google Admob into the app under Banner, Interstitial, and Reward ads.
 
-A few resources to get you started if this is your first Flutter project:
+I've tested this app on Android and iOS simulator. The simple chat app let user autobatically sign in as anonymous user and can performs some basic function of chat app such as register, login with username and password send text in different group, view and edit user profile, view and edit user log-in info.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+After you download the github repo, open the letstalkmoney_app directory in IDE. Set up the simulator then run the command 'flutter run' on the terminal
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ads Demo Video's link: https://youtu.be/4a1tG4lFmUQ .
+In this videos, the performance of the app ads was showed on both Android and iOS simulators.
