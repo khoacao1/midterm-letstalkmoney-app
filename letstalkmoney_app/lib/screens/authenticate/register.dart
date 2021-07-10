@@ -58,6 +58,7 @@ class _RegisterState extends State<Register> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     TextFormField(
+                      key: Key('fname'),
                       validator: (value) =>
                           value!.isEmpty ? 'Enter First Name' : null,
                       onChanged: (value) {
@@ -70,6 +71,7 @@ class _RegisterState extends State<Register> {
                       height: 7,
                     ),
                     TextFormField(
+                      key: Key('lname'),
                       validator: (value) =>
                           value!.isEmpty ? 'Enter Last Name' : null,
                       onChanged: (value) {
@@ -82,6 +84,7 @@ class _RegisterState extends State<Register> {
                       height: 7,
                     ),
                     TextFormField(
+                      key: Key('email'),
                       validator: (value) =>
                           value!.isEmpty ? 'Enter an Email' : null,
                       onChanged: (value) {
@@ -94,6 +97,7 @@ class _RegisterState extends State<Register> {
                       height: 7,
                     ),
                     TextFormField(
+                      key: Key('password'),
                       obscureText: true,
                       validator: (value) => value!.length < 6
                           ? 'Enter an 6+ chars long password'
@@ -108,6 +112,7 @@ class _RegisterState extends State<Register> {
                       height: 20,
                     ),
                     RaisedButton(
+                      key: Key('register'),
                       onPressed: () async {
                         if (_formKey.currentState!.validate()) {
                           setState(() => loading = true);

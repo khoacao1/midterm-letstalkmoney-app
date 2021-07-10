@@ -86,6 +86,7 @@ class _GroupListState extends State<GroupList> {
                       )),
                     ),
                     child: ListTile(
+                      key: Key('gametab'),
                       contentPadding: EdgeInsets.symmetric(
                           vertical: 20.0, horizontal: 35.0),
                       dense: true,
